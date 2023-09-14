@@ -1,0 +1,100 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(188, 185, 194);
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.Container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    width: 65%;
+    /* border: 1px solid black; */
+    
+}
+.Container2{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 50%;
+    background-color: rgb(230, 225, 225);
+    border-radius: 6%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 5px solid pink; */
+}
+.image{
+    height: 60%;
+    width: 70%;
+    justify-content: center;
+    /* border: 5px solid  green ;  */
+}
+#Image{
+    border-radius: 50%;
+    width: 100%;
+     /* border: 2px solid  orange; */
+}
+.Text{
+    display: flex;
+    /* border: 2px solid blue; */
+    font-weight: bold;
+}
+.Container3{
+    display: flex;
+    flex-direction: column; 
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 5%;
+    border-radius: 2%;
+    /* border: 1px solid blue; */
+}
+.Container4{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: center;
+    justify-content: space-between;
+    height: 90%;
+    width: 90%;
+}
+.Sign{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid orange; */
+}
+#Signin{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.Details{
+    display: flex;
+    flex-direction: column; 
+}
+.details{
+    display: flex;
+}
+.Box{
+    width: 100%;
+}
+#Signup{
+    background-color: maroon;
+    width: 78%;
+    color: white;
+    /* border: 5px solid aqua; */
+    
+}
+
+

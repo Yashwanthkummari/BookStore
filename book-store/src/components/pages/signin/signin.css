@@ -1,0 +1,131 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(188, 185, 194);
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    width: 65%;
+    /* border: 1px solid black; */
+    
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 50%;
+    background-color: rgb(230, 225, 225);
+    border-radius: 6%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 5px solid pink; */
+}
+.Image{
+    height: 60%;
+    width: 70%;
+    justify-content: center;
+    /* border: 5px solid  green ;  */
+}
+#image{
+    border-radius: 50%;
+    width: 100%;
+     /* border: 2px solid  orange; */
+}
+.text{
+    display: flex;
+    /* border: 2px solid blue; */
+    font-weight: bold;
+}
+.container3{
+    display: flex;
+    flex-direction: column; 
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 5%;
+    border-radius: 2%;
+    /* border: 1px solid blue; */
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: center;
+    justify-content: space-between;
+    height: 90%;
+    width: 90%;
+}
+.sign{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid orange; */
+}
+#signin{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.details{
+    display: flex;
+    flex-direction: column; 
+    justify-content: left;
+
+}
+.Details{
+    display: flex;
+    justify-content: left;
+}
+.em{
+    width: 3vw;
+}
+.ps{
+    width: 3vw;
+}
+.box{
+    width: 100%;
+}
+.fp{
+    width: 50vw;
+}
+#signup{
+    background-color: maroon;
+    width: 100%;
+    color: white;
+    /* border: 5px solid aqua; */
+    
+}
+.google{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1%;
+    /* border: 1px solid red; */
+   
+}
+.or{
+    font-weight: bold;
+}
+#google{
+    background-color: rgb(128, 147, 147);
+    color: white;    
+}
+#facebook{
+    background-color: rgb(32, 32, 243);
+    color: white;
+}
+
