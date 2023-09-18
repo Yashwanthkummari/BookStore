@@ -80,13 +80,13 @@
     color: black;
     font-weight: bold;
 }
-.details{
+.Detail{
     display: flex;
     flex-direction: column; 
     justify-content: left;
 
 }
-.Details{
+.detail{
     display: flex;
     justify-content: left;
 }

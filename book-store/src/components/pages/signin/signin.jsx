@@ -23,13 +23,13 @@ class SignIn extends Component {
                                 <div > <a href="/SignIn" className="signin" id="signin" > LOGIN</a></div>
                                 <div > <a href="/SignUp" className="signin" id="signin"> SIGNUP</a></div>
                             </div>
-                            <div className="details">
-                               <div className="Details"> <label className="em" >Email</label></div>
+                            <div className="Detail">
+                               <div className="detail"> <label className="em" >Email</label></div>
                                 <div><TextField className="Box" /></div>
 
                             </div>
-                            <div className="details">
-                                <div className="Details"><label className="ps" >Password</label></div>
+                            <div className="Detail">
+                                <div className="detail"><label className="ps" >Password</label></div>
                                 <div><TextField className="Box" /></div>
                                 <label className="fp">ForgetPassword?</label>
 
