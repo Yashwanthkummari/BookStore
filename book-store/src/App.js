@@ -6,6 +6,7 @@ import SignIn from './components/pages/signin/signin';
 import Header from './components/dashboard/header/header'
 import Cardd from './components/dashboard/card/card';
 import ForgetPassword from './components/pages/forgetpassword/forgetpassword';
+import BookDetails from './components/dashboard/bookDetails/bookDetails';
 
 function App() {
   return (
@@ -13,10 +14,11 @@ function App() {
       {/* <SignUp/> */}
       {/* <SignIn/> */}
       <Header/>
-    <Cardd/>
+    {/* <Cardd/> */}
     {/* <ForgetPassword/> */}
+    <BookDetails/>
+    
       
-     
     </div>
   );
 }

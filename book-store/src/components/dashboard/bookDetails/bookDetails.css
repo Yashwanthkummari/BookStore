@@ -1,0 +1,304 @@
+.BDConatiner {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    /* border: 1px solid green; */
+}
+
+.home {
+    display: flex;
+    justify-content: left;
+    /* border: 1px solid red; */
+    position: relative;
+    right: 31.9vw;
+}
+
+.BDContainer1 {
+    height: 80%;
+    width: 72%;
+    display: flex;
+    gap: 3%;
+    /* border: 1px solid blue; */
+}
+
+.BDContainer2 {
+    height: 70%;
+    width: 40%;
+    display: flex;
+    /* border: 4px solid yellow; */
+}
+
+.BDetailsimage {
+    height: 23%;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.BDetailsImage1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#BDetailsImage1 {
+    width: 100%;
+}
+
+.BDetailsImage2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.BDetailsimage3 {
+    height: 100%;
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid green; */
+}
+
+#BDetailsImage2 {
+    width: 50%;
+}
+
+.BDetailsImage4 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#BDetailsImage1 {
+    width: 70%;
+    height: 80%;
+}
+
+.BDButtons {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    /* border: 3px  solid blue; */
+}
+
+.BDButtons1 {
+    width: 50%;
+    height: 40%;
+}
+
+#BDButton {
+    background-color: maroon;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+#BDButton1 {
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid  red; */
+}
+
+.picture1 {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid hotpink; */
+}
+
+.btitle {
+    display: flex;
+    font-weight: bold;
+    font-size: x-large;
+    height: 30%;
+    /* border: 1px solid blueviolet; */
+}
+
+.bauthor {
+    display: flex;
+    color: gray;
+    font-size: large;
+    /* border: 1px solid darkcyan; */
+}
+
+.bdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    /* border: 1px solid green; */
+}
+
+.bratingdetails {
+    display: flex;
+    gap: 1%;
+    /* border: 1px solid indigo; */
+}
+
+.brating {
+    color: white;
+    display: flex;
+    width: 8%;
+    justify-content: center;
+    background-color: green;
+}
+
+.bratingcount {
+    font-size: smaller;
+    margin-top: 2px;
+    color: gray;
+}
+
+.bprice {
+    display: flex;
+    gap: 1%;
+}
+
+.bdiscountprice {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.bMRP {
+    font-size: small;
+    margin-top: 4px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.bookdetaills {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid brown ; */
+}
+
+.bookdetaills1 {
+    display: flex;
+}
+
+.feedback {
+    height: 40%;
+    justify-content: space-between;
+    /* border: 3px solid blueviolet; */
+}
+
+.feedback1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    /* border: 1px solid violet; */
+}
+
+.custfeedback {
+    display: flex;
+    font-weight: bold;
+    /* border: 1px solid black; */
+}
+
+.reviewww {
+    height: 80%;
+    background-color: rgb(239, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid olive; */
+
+}
+
+.reviewww1 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+.customerrating {
+    display: flex;
+    flex-direction: column;
+}
+
+.ovlr {
+    display: flex;
+    /* border: 1px solid yellow ; */
+}
+
+.star {
+    display: flex;
+    color: yellow;
+    /* border: 1px solid green; */
+}
+
+.reviewtext {
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+.cwry {
+    width: 100%;
+    height: 100%;
+}
+
+.BDButt {
+    display: flex;
+    justify-content: right;
+    /* background-color: black; */
+}
+
+#BDButtn {
+    width: 80px;
+    color: aliceblue;
+    background-color: blue;
+    border: none;
+}
+
+.avatar {
+    display: flex;
+    /* border: 1px solid saddlebrown; */
+}
+
+.crdetails1 {
+    display: flex;
+    /* border: 1px solid green; */
+}
+
+.sppan {
+    display: flex;
+    /* border: 1px solid black; */
+}
