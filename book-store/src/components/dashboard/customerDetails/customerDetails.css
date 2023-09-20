@@ -1,0 +1,122 @@
+.CDContainer{
+    height: 88vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.CDContainer1{
+      border: 1px solid black;
+      height: 80%;
+      width: 72%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+}
+.CDContainer2{
+    display: flex;
+    width: 90%;
+}
+.CDText {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    width: 90%;
+    
+}
+.CDText1{
+    border: 1px solid brown;
+    color: brown;
+    justify-content: left;
+    position: relative;
+    width: 20%;
+}
+.CDContainer3{
+    height: 90%;
+    width: 90%;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+}
+.CDContainer4{
+    /* border: 1px solid navy; */
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+      /* align-items: center; */
+      /* gap: 3%; */
+}
+
+.CDData{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 25%;
+    display: flex;
+    gap: 2%;
+    
+}
+.CDAddress{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+    width:540%;
+}
+.CDAddress1{
+    display: flex;
+}
+.CDBox1{
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+.CDBox{
+    display: flex;
+    width: 100%;
+}
+
+.AddressCD{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 25%;
+}
+.hghjhgfff{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 25%;
+}
+.radio{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.CDLabel{
+    display: flex;
+}
+.radio1{
+    display: flex;
+}
+
+.CDContinue{
+    display: flex;
+    /* border: 1px solid olivedrab; */
+    width: 100%;
+    justify-content: right;
+}
+#CDContinue{
+    /* position: relative; */
+   /* left: 65%;  */
+   background-color: rgb(64, 85, 219);
+   color: aliceblue;
+}
+

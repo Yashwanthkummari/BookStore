@@ -7,6 +7,10 @@ import Header from './components/dashboard/header/header'
 import Cardd from './components/dashboard/card/card';
 import ForgetPassword from './components/pages/forgetpassword/forgetpassword';
 import BookDetails from './components/dashboard/bookDetails/bookDetails';
+import Cart from './components/dashboard/cart/cart';
+import CustomerDetails from './components/dashboard/customerDetails/customerDetails';
+import OrderSummery from './components/dashboard/ordersummery/ordersummery';
+import OrderSucessful from './components/dashboard/ordersucessful/ordersucessful';
 
 function App() {
   return (
@@ -16,9 +20,12 @@ function App() {
       <Header/>
     {/* <Cardd/> */}
     {/* <ForgetPassword/> */}
-    <BookDetails/>
+    {/* <BookDetails/> */}
+    <Cart/>
+    {/* <CustomerDetails/> */}
+    {/* <OrderSummery/> */}
+    {/* <OrderSucessful/> */}
     
-      
     </div>
   );
 }

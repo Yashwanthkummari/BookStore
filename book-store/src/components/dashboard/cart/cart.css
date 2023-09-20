@@ -1,0 +1,163 @@
+.CConatiner {
+    height: 88vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    /* border: 1px solid green; */
+}
+
+.Chome {
+    display: flex;
+    justify-content: left;
+    /* border: 1px solid red; */
+    position: relative;
+    right: 31.9vw;
+}
+.CContainer1{
+    /* border: 1px solid black; */
+    height: 80%;
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.CContainer2{
+    border: 1px solid black;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.CContainer3{
+    /* border: 3px solid olive;  */
+    height: 95%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    /* justify-content: space-between; */
+}
+.mycartLoc{
+    /* border:  1px solid orangered; */
+    display: flex;
+    justify-content: space-between;
+ height: 10%;
+}
+.mycart{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loc{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bokdatpla{
+    /* border: 1px solid navy; */
+    height: 90%;
+}
+
+.bookdata{
+    /* border: 1px solid hotpink; */
+    height: 75%;
+    display: flex;
+    gap: 2%;
+}
+.Cpict{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:6%;
+}
+#CDetailsImage{
+    width: 100%;
+    
+}
+.CBookData{
+    height: 70%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: space-around;
+    position: relative; 
+}
+.CBookData1{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+#Ctitle{
+    position: relative;
+    right: 38%;
+    font-weight: bold;
+    bottom: 5%;
+}
+#Cauthor{
+    position: relative;
+    right: 42%;
+    top: 23%;
+    font-size: small;
+}
+.Cprice {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20%;
+}
+.Cprice1{
+    display: flex;
+    width: 28%;
+    justify-content: space-between;
+    position: relative;
+    top: 45%;
+}
+
+.Cdiscountprice {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.CMRP {
+    font-size: small;
+    margin-top: 4px;
+    text-decoration: line-through;
+    color: gray;
+}
+#Sig1nup{
+    color: white;
+    background-color: blue;
+    position: relative;
+    left: 43.5%;
+}
+.CContainer4{
+    border: 1px solid black;   
+    height: 10%;
+    width: 100%;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.CContainer5{
+ border: 1px solid black;
+ height: 10%;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+

@@ -1,0 +1,108 @@
+.OSContainer{
+    height: 88vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.OContainer1{
+      border: 1px solid black;
+      height: 50%;
+      width: 72%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-around;
+}
+.OScontainer2{
+    display: flex;
+    width: 90%;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.OText {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    font-weight: bold;
+}
+.OSContainer3{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    gap: 3%;
+}
+.OSpict{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#OSDetailsImage{
+    width: 100%;
+}
+.OSBookData{
+    height: 70%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: space-around;
+    position: relative; 
+}
+.OSBookData1{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+#OStitle{
+    position: relative;
+    right: 38%;
+    font-weight: bold;
+    bottom: 5%;
+}
+#OSauthor{
+    position: relative;
+    right: 42%;
+    top: 23%;
+    font-size: small;
+}
+.OSprice {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20%;
+}
+.OSprice1{
+    display: flex;
+    width: 28%;
+    justify-content: space-between;
+    position: relative;
+    top: 45%;
+}
+
+.OSdiscountprice {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.OSMRP {
+    font-size: small;
+    margin-top: 4px;
+    text-decoration: line-through;
+    color: gray;
+}
+.OCheckout{
+    display: flex;
+    width: 90%;
+    justify-content: right;
+}
+#OCheckout{
+    color: wheat;
+    background-color: rgb(71, 71, 195);
+}
+

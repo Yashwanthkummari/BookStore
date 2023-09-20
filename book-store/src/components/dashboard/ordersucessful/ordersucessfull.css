@@ -1,0 +1,102 @@
+.OSContainer{
+    height:87vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.OSContainer1{
+    height: 95%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.orderpic{
+    height: 50%;
+    width: 40%; 
+}
+#orderimage{
+width: 65%;
+}
+.OSText{
+    height: 10%;
+    width: 28%;
+    position: relative;
+    bottom: 4%;
+}
+.OSTable{
+    height: 20%;
+    width:60% ;
+    border: 1px solid rgb(209, 207, 207);
+    display: flex;
+    flex-direction: column;
+}
+.OStable1{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    border: 1px solid  rgb(209, 207, 207);
+    background-color: rgb(244, 240, 240) ;
+}
+.OSem{
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+.OScu{
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+.OScu{
+    display: flex;
+    width: 34%;
+    justify-content: center;
+    align-items: center;
+}
+
+.OStable2{
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+.OSem1{
+    display: flex;
+    border: 1px solid  rgb(209, 207, 207);
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.OScu1{
+    display: flex;
+    border: 1px solid  rgb(209, 207, 207);
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.OScu1{
+    display: flex;
+    border: 1px solid  rgb(209, 207, 207);
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.conshop{
+    height:8%;
+    width: 40%;
+}
+#conshop{
+    color: aliceblue;
+    background-color: rgb(48, 48, 223);
+    position: relative;
+    left: 10%;
+}
+#contus{
+    position: relative;
+    right: 4%;
+}
