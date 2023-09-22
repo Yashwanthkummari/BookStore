@@ -2,6 +2,15 @@
     width: 15vw;
     height: 21vw;
     margin: 15px;
+   position: relative;
+   left: 13%;
+   top: 5%;
+}
+.cardddbook{
+    position: relative;
+    right: 33%; 
+    font-weight: bold;
+    font-size: large;
 }
 .cardimage{
     background-color: rgb(244, 241, 245);

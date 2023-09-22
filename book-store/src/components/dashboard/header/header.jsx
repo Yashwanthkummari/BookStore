@@ -19,6 +19,7 @@ import book from '../../images/Book.jpg'
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import './header.css';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
+import { useNavigate } from 'react-router-dom';
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -64,6 +65,17 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 export default function Header() {
+
+  const navigate = useNavigate()
+  const imageClick = ()=>{
+    navigate("/card")
+  }
+  const CartClick = ()=>{
+    navigate("/cart")
+  }
+  const Logout =()=>{
+    navigate("/")
+  }
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
@@ -105,7 +117,7 @@ export default function Header() {
       onClose={handleMenuClose}
     >
       <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-      <MenuItem onClick={handleMenuClose}>My account</MenuItem>
+      <MenuItem onClick={Logout}>Logout</MenuItem>
     </Menu>
   );
 
@@ -149,7 +161,7 @@ export default function Header() {
         <Toolbar  >
           
           <div className='storeimage'>
-            <div className='bookImage' >  < img src={book} alt="Book" /></div>
+            <div className='bookImage' onClick={imageClick} >  < img src={book} alt="Book" /></div>
             <div className='bks'><Typography
             
             >
@@ -184,7 +196,7 @@ export default function Header() {
                   <div className='content'><Typography>profile</Typography></div>
                 </div>
               </IconButton>
-              <div className='shopicon'>
+              <div className='shopicon' onClick={CartClick}>
                 <div className='icon'> <ShoppingCartOutlinedIcon /></div>
                 <div className='content'><Typography>Cart</Typography></div>
               </div>

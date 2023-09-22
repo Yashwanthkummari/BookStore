@@ -7,10 +7,19 @@ import { CardActionArea } from '@mui/material';
 // import ram from '../../images/LordRam.jpg'
 import './card.css';
 import ram from '../../images/Ram.jpeg'
+import { useNavigate } from 'react-router-dom';
 
 export default function Cardd() {
+  
+  const navigate = useNavigate()
+
+  const bookDetails =()=>{
+   navigate("/bookdetails")
+  }
   return (
-    <Card className="card" >
+    <div onClick={bookDetails}> <div className='cardddbook'>Books(01)</div> 
+    <Card className="card"  >
+     
       <CardActionArea>
         <CardMedia
           component="img"
@@ -27,13 +36,14 @@ export default function Cardd() {
               </div>
               <div className='prices'>
                 <div className='discountprice' >Rs1500</div>
-                <div className='MRP' >Rs3000</div>
+                <div className='MRP'  >Rs3000</div>
               </div>
             </div>
           </div>
         </CardContent>
       </CardActionArea>
     </Card>
+    </div>
 
   );
 }

@@ -2,12 +2,14 @@ import React from "react";
 import './bookDetails.css'
 import ram from '../../images/Ram.jpeg'
 import { Avatar } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function BookDetails() {
+ 
     return (
         <div className="BDConatiner" >
-            <div className="home">
-                Home/Book(01)
+            <div>
+                <Link className="home" to='/dashboard' >Home/Book(01)</Link>
             </div>
             <div className="BDContainer1">
                 <div className="BDContainer2">
@@ -22,13 +24,13 @@ function BookDetails() {
                         <div className="BDetailsImage4"><img id='BDetailsImage1' src={ram} alt="lordram" /></div>
                         {/* <div className="BDButtons"> hi</div> */}
                         <div className="BDButtons">
-                            <div className="BDButtons1"> <button id="BDButton" Variant="contained">Add to bag</button></div>
+                            <div className="BDButtons1" > <button id="BDButton" Variant="contained">Add to bag</button></div>
                             <div className="BDButtons1">   <button id="BDButton1" Variant="contained">  &#x2665; WishList</button></div>
 
                         </div>
 
                     </div>
-                
+
 
                 </div>
                 <div className="picture">

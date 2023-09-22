@@ -1,10 +1,11 @@
 .OSContainer{
     height: 88vh;
-    width: 99vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 .OContainer1{
       border: 1px solid black;
@@ -15,6 +16,8 @@
       justify-content: center;
       align-items: center;
       justify-content: space-around;
+      position: relative;
+      right: 15%;
 }
 .OScontainer2{
     display: flex;

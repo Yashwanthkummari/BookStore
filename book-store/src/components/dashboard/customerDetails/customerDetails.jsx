@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './customerDetails.css'
 import TextField from '@mui/material/TextField';
 import FormControlLabel from '@mui/material/FormControlLabel';
@@ -6,7 +6,15 @@ import Radio from '@mui/material/Radio';
 import { Button } from "@mui/material";
 
 
-function CustomerDetails() {
+function CustomerDetails({name}) {
+    const[orderclose,setorderclose] = useState(false)
+
+    const openorder =()=>{
+        setorderclose(true)
+        console.log(orderclose)
+       name(orderclose)
+    }
+
     return (
         <div className="CDContainer">
             <div className="CDContainer1">
@@ -65,7 +73,7 @@ function CustomerDetails() {
 
                     </div>
                     <div className='CDContinue' >
-                        <Button id="CDContinue" Variant="contained">continue</Button>
+                        <Button id="CDContinue" Variant="contained" onClick={openorder}>continue</Button>
                     </div>
                 </div>
             </div>

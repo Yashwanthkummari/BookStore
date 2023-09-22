@@ -1,11 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 import TextField from '@mui/material/TextField';
 import './signin.css'
 import bookstoreImage from '../../../components/images/bookStore.jpg'
 import { Button } from "@mui/material";
+import { Link,  useNavigate } from "react-router-dom";
 
-class SignIn extends Component {
-    render() {
+
+            
+function SignIn () {
+    
+    const navigate=useNavigate()
+
+    const LoginClick = () =>{
+        navigate("/dashboard")
+    }
+    
         return (
             <div className="container">
                 <div className="container1">
@@ -20,8 +29,9 @@ class SignIn extends Component {
                     <div className="container3">
                         <div className="container4">
                             <div className="sign">
-                                <div > <a href="/SignIn" className="signin" id="signin" > LOGIN</a></div>
-                                <div > <a href="/SignUp" className="signin" id="signin"> SIGNUP</a></div>
+                               <div> <Link className="signin" id="signin"  to ='/'> LOGIN </Link></div>
+                               <div><Link className="signin" id="signin" to='/SignUp'> SIGNUP</Link></div>
+                                
                             </div>
                             <div className="Detail">
                                <div className="detail"> <label className="em" >Email</label></div>
@@ -37,7 +47,7 @@ class SignIn extends Component {
                            
                            
                             <div className="signup">
-                                <Button id="signup" Variant="contained">Login</Button>
+                                <Button id="signup" Variant="contained" onClick={LoginClick}>Login</Button>
                             </div>
                             <label className="or">-----------------OR---------------------</label>
                             <div className="google">
@@ -55,8 +65,8 @@ class SignIn extends Component {
 
 
 
-            </div>
+             </div>
         )
-    }
+    
 }
 export default SignIn

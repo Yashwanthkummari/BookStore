@@ -2,8 +2,14 @@ import React from "react";
 import './ordersucessfull.css'
 import order from '../../images/Orderplaced.jpeg'
 import { Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 function OrderSucessful() {
+    const navigate = useNavigate()
+
+    const conshoping =()=>{
+        navigate('/dashboard')
+    }
     return (
         <div className="OSContainer">
             <div className="OSContainer1">
@@ -26,7 +32,7 @@ function OrderSucessful() {
                     </div>
                 </div>
                 <div className="conshop">
-                <Button id="conshop" Variant="contained">Continue Shopping</Button>
+                <Button id="conshop" Variant="contained" onClick={conshoping}>Continue Shopping</Button>
 
                 </div>
             </div>

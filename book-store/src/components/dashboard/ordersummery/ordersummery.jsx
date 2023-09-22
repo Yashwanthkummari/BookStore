@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import './ordersummery.css'
 import { Button } from "@mui/material";
 import ramaa from '../../images/Ram.jpeg'
+import { useNavigate } from "react-router-dom";
 
 
 function OrderSummery() {
+
+     const navigate = useNavigate()
+    const ordersucessful =()=>{
+        navigate('/ordersucessful')
+    }
     return (
         <div className="OSContainer">
             <div className="OContainer1">
@@ -37,7 +43,7 @@ function OrderSummery() {
                     </div>
                 </div>
                 <div className='OCheckout' >
-                    <Button id="OCheckout" Variant="contained">Checkout</Button>
+                    <Button id="OCheckout" Variant="contained" onClick={ordersucessful}>Checkout</Button>
                 </div>
             </div>
         </div>
