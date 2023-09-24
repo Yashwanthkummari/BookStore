@@ -1,4 +1,4 @@
-.OSContainer{
+/* .OSContainer{
     height: 88vh;
     width: 100vw;
     display: flex;
@@ -6,81 +6,96 @@
     justify-content: center;
     align-items: center;
    
+} */
+.OContainer1 {
+    border: 1px solid black;
+    height: 40vh;
+    width: 59.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    position: relative;
+    bottom: 28vh;
+    right: 7.3vw;
+
+
 }
-.OContainer1{
-      border: 1px solid black;
-      height: 50%;
-      width: 72%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      justify-content: space-around;
-      position: relative;
-      right: 15%;
-}
-.OScontainer2{
+
+.OScontainer2 {
     display: flex;
     width: 90%;
     height: 60%;
     flex-direction: column;
     justify-content: space-around;
+    /* border: 1px solid green; */
 }
+
 .OText {
     display: flex;
     justify-content: left;
     width: 100%;
     font-weight: bold;
 }
-.OSContainer3{
+
+.OSContainer3 {
     width: 90%;
     height: 70%;
     display: flex;
     gap: 3%;
 }
-.OSpict{
+
+.OSpict {
     height: 100%;
     width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#OSDetailsImage{
+
+#OSDetailsImage {
     width: 100%;
 }
-.OSBookData{
+
+.OSBookData {
     height: 70%;
     width: 45%;
     display: flex;
     flex-direction: column;
     gap: 5%;
     justify-content: space-around;
-    position: relative; 
+    position: relative;
 }
-.OSBookData1{
+
+.OSBookData1 {
     display: flex;
     flex-direction: column;
     height: 30%;
 }
-#OStitle{
+
+#OStitle {
     position: relative;
     right: 38%;
     font-weight: bold;
     bottom: 5%;
 }
-#OSauthor{
+
+#OSauthor {
     position: relative;
     right: 42%;
     top: 23%;
     font-size: small;
 }
+
 .OSprice {
     display: flex;
     flex-direction: column;
     height: 100%;
     gap: 20%;
 }
-.OSprice1{
+
+.OSprice1 {
     display: flex;
     width: 28%;
     justify-content: space-between;
@@ -99,13 +114,15 @@
     text-decoration: line-through;
     color: gray;
 }
-.OCheckout{
+
+.OCheckout {
     display: flex;
     width: 90%;
     justify-content: right;
+    /* border: 1px solid yellow; */
 }
-#OCheckout{
+
+#OCheckout {
     color: wheat;
     background-color: rgb(71, 71, 195);
 }
-

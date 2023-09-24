@@ -9,6 +9,11 @@ import Cart from "../dashboard/cart/cart";
 import CustomerDetails from "../dashboard/customerDetails/customerDetails";
 import OrderSucessful from "../dashboard/ordersucessful/ordersucessful";
 import Headerlayout from "../dashboard1/headerlayout";
+import AuthRoute from "./authRoute";
+import Protectedroute from "./protectedRoute";
+import ForgetPassword from "../pages/forgetpassword/forgetpassword";
+
+
 
 
 function Router() {
@@ -18,9 +23,10 @@ function Router() {
             <Headerlayout>
                 <Routes>
                     
-                    <Route exact path={"/"} element={<SignIn/>} />
-                    <Route path={"/SignUp"} element={<SignUp />} />
-                    <Route path={"/dashboard"} element={<Dashboard1/>}/>
+                    <Route exact path={"/"} element={<AuthRoute><SignIn/></AuthRoute>} />
+                    <Route path={"/SignUp"} element={<AuthRoute><SignUp/></AuthRoute>} />
+                    <Route path={"/forgetpassword"} element={<AuthRoute><ForgetPassword/></AuthRoute>}/>
+                    <Route path={"/dashboard"} element={<Protectedroute><Dashboard1/></Protectedroute>}/>
                     <Route path={"/card"}element={<Cardd/>}/>
                     <Route path={"/bookdetails"} element={<BookDetails/>}/>
                     <Route path={"cart"} element={<Cart/>}/>

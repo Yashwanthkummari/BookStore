@@ -46,7 +46,7 @@ const SearchIconWrapper = styled('div')(({ theme }) => ({
   pointerEvents: 'none',
   display: 'flex',
   alignItems: 'center',
-  color:'grey',
+  color: 'grey',
   justifyContent: 'center',
 }));
 
@@ -67,13 +67,17 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 export default function Header() {
 
   const navigate = useNavigate()
-  const imageClick = ()=>{
+  const imageClick = () => {
     navigate("/card")
   }
-  const CartClick = ()=>{
+  const CartClick = () => {
     navigate("/cart")
   }
-  const Logout =()=>{
+  const Logout = () => {
+    if (localStorage.key) 
+    {
+      localStorage.removeItem("token")
+    }
     navigate("/")
   }
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -138,7 +142,7 @@ export default function Header() {
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
     >
-      
+
       <MenuItem onClick={handleProfileMenuOpen}>
         <IconButton
           size="large"
@@ -157,13 +161,13 @@ export default function Header() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ backgroundColor: 'maroon' }} >
-        
+
         <Toolbar  >
-          
+
           <div className='storeimage'>
             <div className='bookImage' onClick={imageClick} >  < img src={book} alt="Book" /></div>
             <div className='bks'><Typography
-            
+
             >
               Bookstore
             </Typography>
@@ -180,7 +184,7 @@ export default function Header() {
           </Search>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-            
+
             <div className='Accounticon'>
               <IconButton
                 size="small"

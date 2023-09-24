@@ -11,13 +11,13 @@
 .CDContainer1{
       border: 1px solid black;
       height: 80%;
-      width: 73%;
+      width: 59.5%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       position: relative;
-      left: 1%;
+     left: 13.5vw;
 }
 .CDContainer2{
     display: flex;
